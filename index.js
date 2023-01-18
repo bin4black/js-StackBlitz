@@ -26,3 +26,6 @@ let stocks = {
     console.log("Production has started")
     
     };
+
+    // name 👇 of our second function
+order(production);
