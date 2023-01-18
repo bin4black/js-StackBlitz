@@ -13,19 +13,22 @@ let stocks = {
     toppings : ["chocolate", "peanuts"],
  };
 
- let order = (call_production) =>{
+ let order = (fruit_name, call_production) =>{
 
-    console.log("Order placed. Please call production")
-    
-    // function 👇 is being called 
-      call_production();
-    };
-    
-    let production = () =>{
-    
-    console.log("Production has started")
-    
-    };
+  setTimeout(function(){
 
-    // name 👇 of our second function
-order(production);
+    console.log(`${stocks.Fruits[fruit_name]} was selected`)
+
+// Order placed. Call production to start
+   call_production();
+  },2000)
+};
+
+// 2nd Function
+
+let production = () =>{
+  // blank for now
+};
+
+// Trigger 👇
+order(0, production);
