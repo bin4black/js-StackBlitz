@@ -5,3 +5,10 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>JS Starter</h1>`;
 console.log("mi primer proyecto")
+
+let stocks = {
+    Fruits : ["strawberry", "grapes", "banana", "apple"],
+    liquid : ["water", "ice"],
+    holder : ["cone", "cup", "stick"],
+    toppings : ["chocolate", "peanuts"],
+ };
