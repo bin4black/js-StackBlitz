@@ -27,7 +27,11 @@ let stocks = {
 // 2nd Function
 
 let production = () =>{
-  // blank for now
+
+  setTimeout(()=>{
+    console.log("production has started")
+  },0000)
+
 };
 
 // Trigger 👇
