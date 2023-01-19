@@ -30,7 +30,7 @@ let production = () =>{
 
   setTimeout(()=>{
     console.log("production has started")
-  },0000)
+  },0)
 
 };
 
